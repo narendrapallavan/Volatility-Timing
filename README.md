@@ -8,9 +8,9 @@ This project tests whether **volatility targeting** (volatility timing) improves
 Mandate: U.S. Profitability (RMW) factor using data sourced from the Kenneth French database (provided in the coursework dataset).
 
 **Deliverables**
-- Executive memo (results + recommendation): `report/USA_Profitability_Memo.pdf`
-- Assignment brief / questions: `report/Volatility-targeting_USA-Profitability.pdf`
-- Replication model (forecasts, weights, returns, stats): `model/USA_Profitability_Factor_Volatility_Timing.xlsx`
+- Executive memo (results + recommendation): `USA_Profitability_Memo.pdf`
+- Assignment brief / questions: `Volatility-targeting_USA-Profitability.pdf`
+- Replication model (forecasts, weights, returns, stats): `USA_Profitability_Factor_Volatility_Timing.xlsx`
 
 ## Strategy (volatility targeting)
 Each month, the risky-asset weight is scaled by:
@@ -49,6 +49,6 @@ Volatility timing generally did **not** improve risk-adjusted performance for th
 The mean–variance optimization favored a mix tilted toward the managed strategy (≈18% unmanaged / 82% managed), delivering a slightly higher Sharpe than either strategy alone.
 
 ## How to review quickly
-1. Read `report/USA_Profitability_Memo.pdf` for the investment-committee style narrative and tables.
-2. Open `model/USA_Profitability_Factor_Volatility_Timing.xlsx` to audit the volatility forecast, monthly weights, managed returns, turnover, and performance statistics.
+1. Read `USA_Profitability_Memo.pdf` for the investment-committee style narrative and tables.
+2. Open `USA_Profitability_Factor_Volatility_Timing.xlsx` to audit the volatility forecast, monthly weights, managed returns, turnover, and performance statistics.
 
